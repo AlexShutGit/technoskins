@@ -90,6 +90,7 @@ a{
     position: relative;
     width: 100%;
     height: auto;
+    overflow: hidden;
 }
 
 .wrapper-body {
@@ -108,12 +109,28 @@ a{
     height: 688px;
     width: 100%;
     flex-direction: column;
-    background: black;
 }
 .trailer__wrapper {
     display: flex;
     flex-direction: column;
     gap: 45px;
+}
+
+.trailer__wrapper__image {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+    width: 100%;
+    height: 688px;
+}
+
+.trailer__wrapper__image__phone {
+    position: absolute;
+    left: 47.29%;
+    top: 71px;
+    z-index: 2;
+
 }
 
 .wrapper_h1 {
@@ -122,22 +139,25 @@ a{
     font-size: 54px;
     font-weight: 500;
     line-height: 110%;
+    z-index: 2;
 }
 
 .wrapper__button {
     display: flex;
     justify-content: flex-start;
-    gap: 25px
+    gap: 25px;
+    line-height: 150%;
+    z-index: 2;
 }
 
 .button-black {
-    max-height: 53px;
+    height: 53px;
     min-width: 209px;
     background: rgba(1, 86, 91, 1);
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
 .examples {
@@ -164,6 +184,7 @@ a{
 .example {
     width: 282px;
     height: 282px;
+    border-radius: 6px;
 }
 
 .first__half {
@@ -206,6 +227,7 @@ a{
     align-items: center;
     flex-direction: column;
     gap: 11px;
+    line-height: 150%;
 }
 
 .why-we__block__name {
@@ -213,7 +235,7 @@ a{
     font-size: 22px;
     font-weight: 500;
     line-height: 150%;
-    /* letter-spacing: 2px; */
+    letter-spacing: 0%;
 }
 
 .why-we__block__text {
@@ -222,7 +244,126 @@ a{
     text-align: center;
 }
 
-/* .trailer-image {
-    position: absolute;
-    z-index: 0;
-} */
+.garanties {
+    margin-top: 85px;
+    display: flex;
+    gap: 52px;
+    width: 1216px;
+    height: 421px;
+}
+
+.garanties__texts {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 466px;
+    height: 421px;
+}
+
+.garanties__texts__name {
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 110%;
+    color: black;
+}
+
+.garanties__texts__text {
+    font-size: 16px;
+    line-height: 150%;
+    color: black;
+}
+
+.garanties__image {
+    border-radius: 6px;
+}
+
+.banner__coupon {
+    margin-top: 89px;
+    display: flex;
+    gap: 54px;
+}
+
+.banner__image {
+    border-radius: 6px;
+}
+
+.banner__texts {
+    display: flex;
+    gap: 13px;
+    flex-direction: column;
+}
+
+.banner__texts__name {
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 110%;
+    color: black;
+}
+
+.banner__texts__text {
+    font-size: 16px;
+    line-height: 150%;
+    color: black;
+}
+
+.advantages {
+    margin-top: 86px;
+    display: flex;
+    width: 1218px;
+    height: 757px;
+    gap: 36px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantages__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 78px;
+}
+
+.advantages__first__half {
+    display: flex;
+    gap: 38px;
+    flex-direction: column;
+    margin-top: 136px;
+}
+
+.advantages__block{
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantages__texts {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantages__texts__name{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(1, 86, 91, 1);
+    line-height: 150%;
+    text-align: center;
+}
+
+.advantages__texts__text{
+    font-size: 16px;
+    font-weight: 150%;
+    color: black;
+    text-align: center;
+}
+
+.advantages__img {
+    width: 100px;
+    height: 100px;
+}
+
+.advantages__second__half {
+    margin-top: 136px;
+    margin-left: 58px;
+}
