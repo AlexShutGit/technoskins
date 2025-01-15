@@ -696,10 +696,10 @@ a{
 .addresses__map {
     width: 802px;
     height: 563px;
-    color: black;
+    /* color: black;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     border-radius: 6px;
 }
 
