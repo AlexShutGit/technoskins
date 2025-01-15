@@ -329,11 +329,15 @@ a{
     margin-top: 136px;
 }
 
-.advantages__block{
+.advantages__block {
     display: flex;
     gap: 18px;
     flex-direction: column;
     align-items: center;
+}
+.advantages__name {
+    color: black;
+    font-weight: 500;
 }
 
 .advantages__texts {
@@ -353,7 +357,7 @@ a{
 
 .advantages__texts__text{
     font-size: 16px;
-    font-weight: 150%;
+    line-height: 150%;
     color: black;
     text-align: center;
 }
@@ -364,6 +368,9 @@ a{
 }
 
 .advantages__second__half {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
     margin-top: 136px;
     margin-left: 58px;
 }
@@ -381,6 +388,7 @@ a{
     font-size: 32px;
     color: black;
     text-align: center;
+    font-weight: 500;
 }
 
 .price-list__blocks {
@@ -424,6 +432,7 @@ a{
     color: black;
     width: 266px;
     line-height: 220%;
+    font-weight: 500;
 }
 
 .block-prices {
@@ -436,6 +445,7 @@ a{
     width: 59px;
     color: #898989;
     line-height: 220%;
+    text-align: right;
 }
 
 .banner-defence-your-phone {
@@ -461,7 +471,10 @@ a{
 
 .banner-defence-your-phone__texts__name {
     color: white;
+    text-align: center;
     z-index: 1;
+    font-size: 22px;
+    line-height: 150%;
 }
 
 .button-white {
