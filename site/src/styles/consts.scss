@@ -1,0 +1,51 @@
+$white: #FFFFFF;
+$whiteOnBlack: #F8F8F8;
+$greyAdditionalTextOnBlack: #868686;
+$main: #128C94;
+$mainOnHover: #1DC1CC;
+
+@mixin spanText {
+    font-size: 16px;
+    line-height: 150%;
+    color: $greyAdditionalTextOnBlack;
+}
+
+@mixin spanTextCenter {
+    @include spanText;
+    text-align: center;
+}
+
+@mixin h2Text {
+    font-size: 32px;
+    color: $main;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+@mixin spanTextWhite {
+    color: $white;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+@mixin h1WhiteHeavy {
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 110%;
+    color: $white;
+}
+
+@mixin spanTextWhiteOnBlack {
+    font-size: 16px;
+    line-height: 220%;
+    counter-reset: $whiteOnBlack;
+    text-align: right;
+}
+
+@mixin spanTextPriceList {
+    font-size: 16px;
+    line-height: 220%;
+    color: $greyAdditionalTextOnBlack;
+}

@@ -1,0 +1,29 @@
+@import "../../../styles/consts.scss";
+
+.garanties {
+    margin-top: 85px;
+    display: flex;
+    gap: 52px;
+    width: 1216px;
+    height: 421px;
+
+    &__texts {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 466px;
+        height: 421px;
+
+        &__name {
+            @include h1WhiteHeavy;
+        }
+
+        &__text {
+            @include spanText;
+        }
+    }
+
+    &__image {
+        border-radius: 6px;
+    }
+}

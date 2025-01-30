@@ -1,0 +1,12 @@
+.navbar {
+    margin-top: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    min-width: 402px;
+
+    a {
+        text-decoration: none;
+    }
+}

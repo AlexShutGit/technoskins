@@ -1,0 +1,61 @@
+@import "../../../styles/consts.scss";
+
+.price-list {
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 1218px;
+    height: 509px;
+
+    &__name {
+        @include h2Text;
+        text-align: center;
+    }
+
+    &__blocks {
+        display: flex;
+        width: 1198px;
+        height: 446px;
+        gap: 50px;
+    }
+
+    &__block__name {
+        @include spanTextWhite;
+
+        &__down {
+            @include spanTextWhite;
+            margin-top: 16px;
+            margin-bottom: 14px;
+        }
+    }
+    
+}
+.block {
+    &-uppper {
+        display: flex;
+        gap: 43px;
+        width: 366px;
+        height: 245px;
+    }
+
+    &-names {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-name {
+        width: 266px;
+        @include spanTextPriceList;
+    }
+
+    &-prices {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-price {
+        width: 59px;
+        @include spanTextWhiteOnBlack;
+    }
+}

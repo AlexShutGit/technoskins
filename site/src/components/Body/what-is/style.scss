@@ -1,0 +1,29 @@
+@import "../../../styles/consts.scss";
+
+.what-is {
+    display: flex;
+    gap: 52px;
+    width: 1216px;
+    height: 421px;
+    align-items: center;
+
+    &__image {
+        width: 698px;
+        height: 366px;
+        border-radius: 6px;
+    }
+
+    &__texts {
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+
+        &__name {
+            @include h1WhiteHeavy;
+        }
+
+        &__text {
+            @include spanText;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+@import "../../../styles/consts.scss";
+
+.banner__coupon {
+    margin-top: 89px;
+    display: flex;
+    gap: 54px;
+}
+.banner {
+    &__image {
+        border-radius: 6px;
+    }
+
+    &__texts {
+        display: flex;
+        gap: 13px;
+        flex-direction: column;
+
+        &__name {
+            @include h1WhiteHeavy;
+        }
+
+        &__text {
+            @include spanText;
+        }
+    }
+}

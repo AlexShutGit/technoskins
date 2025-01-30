@@ -1,0 +1,66 @@
+@import "../../../styles/consts.scss";
+
+.addresses {
+    margin-top: 81px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    width: 1218px;
+    height: 640px;
+    flex-direction: column;
+    margin-bottom: 93px;
+
+    &__name {
+        @include h2Text;
+    }
+
+    &__container {
+        display: flex;
+        gap: 46px;
+    }
+
+    &__blocks {
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        width: 370px;
+        height: 569px;
+    }
+
+    &__block {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        &__title {
+            display: flex;
+            gap: 11px;
+            align-items: flex-end;
+        }
+
+        &__name {
+            @include spanTextWhite;
+            word-break: keep-all;
+        }
+
+        &__time {
+            font-size: 14px;
+            line-height: 150%;
+            color: #898989;
+            margin-bottom: 5px;
+        }
+
+        &__address {
+            @include spanText;
+            width: 270px;
+            height: 48px;
+        }
+    }
+
+    &__map {
+        width: 802px;
+        height: 563px;
+        border-radius: 6px;
+    }
+}

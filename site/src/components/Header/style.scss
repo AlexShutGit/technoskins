@@ -1,0 +1,56 @@
+.wrapper-header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 27px;
+    padding-bottom: 32px;
+    max-height: 98px;
+    width: 100%;
+    height: auto;
+    background: rgba(1, 86, 91, 1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 92px;
+    max-width: 1218px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.time__job {
+    min-width: 422px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+}
+
+.time {
+    margin-top: 9px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.number-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 7px;
+}
+
+.number {
+    font-size: 22px;
+    font-weight: 450;
+    margin-top: 6px;
+}
+
+.socials {
+    display: flex;
+    gap: 7px;
+}
